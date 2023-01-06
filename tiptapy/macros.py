@@ -1,8 +1,8 @@
 import pkgutil
 import re
 from html import escape
-from string import Template
 from urllib.parse import urlparse
+from string import Template
 
 
 def make_img_src(attrs):

@@ -1,14 +1,13 @@
-import json
 import os
 import sys
+import json
 from html import escape
-from typing import Dict
-
 from jinja2 import Environment, FileSystemLoader, select_autoescape
-
+from typing import Dict
 from .image import url2mime
-from .macros import (build_link_handler, get_audio_player_block, get_doc_block,
-                     get_snake_case, make_img_src)
+from .macros import (make_img_src, build_link_handler,
+                     get_audio_player_block, get_doc_block,
+                     make_img_src)
 
 __version__ = '0.15.1'
 
