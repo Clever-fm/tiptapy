@@ -7,7 +7,7 @@ from typing import Dict
 from .image import url2mime
 from .macros import (make_img_src, build_link_handler,
                      get_audio_player_block, get_doc_block,
-                     make_img_src)
+                     get_snake_case)
 
 __version__ = '0.15.1'
 
