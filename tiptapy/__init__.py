@@ -2,7 +2,7 @@ import os
 import sys
 import json
 from html import escape
-from jinja2 import Environment, FileSystemLoader, select_autoescape
+from jinja2 import FileSystemLoader, Environment, select_autoescape
 from typing import Dict
 from .image import url2mime
 from .macros import (make_img_src, build_link_handler,
