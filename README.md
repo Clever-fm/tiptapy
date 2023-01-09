@@ -1,13 +1,15 @@
 # Tiptapy
-### Library that generates HTML output from JSON export of tiptap editor 
+
+### Library that generates HTML output from JSON export of tiptap editor
 
 ![tiptapy](https://github.com/scrolltech/tiptapy/workflows/tiptapy/badge.svg)
 
-### Install 
+> This is a forked version of [stckme/tiptapy](https://github.com/stckme/tiptapy) by Shekhar Tiwatne. This version includes camel case support for newer tiptap versions. Please consider using the original project in your projects.
 
+### Install
 
 ```bash
-pip install tiptapy
+pip install cfm-tiptapy
 ```
 
 ### Test
@@ -18,7 +20,7 @@ python -m pytest
 
 ### Usage
 
-``` {.sourceCode .python}
+```{.sourceCode .python}
 import tiptapy
 
 s = """
@@ -84,11 +86,12 @@ print(out)
 ```
 
 #### Output
-``` {.sourceCode .html}
+
+```{.sourceCode .html}
 <blockquote>
   <p>Readability counts.</p>
   <p>
-      <a href="https://en.wikipedia.org/wiki/Zen_of_Python">Zen of Python</a> By 
+      <a href="https://en.wikipedia.org/wiki/Zen_of_Python">Zen of Python</a> By
       <strong>Tom Peters</strong>
   </p>
 </blockquote>
